@@ -1,3 +1,26 @@
+## blog site
+
+Turn static HTML/CSS into a blog with CMS using the JAMStack
+https://www.youtube.com/watch?v=4wD00RT6d-g
+
+clone the repo https://github.com/kevin-powell/JAMStack-blog-starter
+to https://github.com/chaurwu/JAMStack-blog-starter
+
+```bash
+cd /Users/gwu/projects
+git clone git@github.com:chaurwu/JAMStack-blog-starter.git
+cd JAMStack-blog-starter/
+
+git config user.name "Chaur Wu"
+git config user.email "wu.chaur@gmail.com"
+
+nvm use v16.13.2
+npm config set registry https://registry.npmjs.org
+
+npm init -y
+npm install @11ty/eleventy --save-dev
+```
+
 # JAMStack personal blog - starter files
 
 These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.
@@ -13,7 +36,7 @@ The `src` folder contains files so that you can get your project up and running 
 - 5 blog articles in the `blog` folder
 - images and a logo in the `assets` folder
 
-The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them. 
+The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them.
 
 ## DevProjects Challenge
 
